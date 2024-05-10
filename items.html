@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Items</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240510122238">
+
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<div class="overlay"></div>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<a class="top-header__support" href="#">Support service</a>
+					<div class="top-header__authorization authorization">
+						<a class="authorization__log" href="#">login</a>
+						<span>|</span>
+						<a class="authorization__reg" href="#">sign up</a>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header__container">
+					<a href="home.html" class="bottom-header__logo">
+						<img src="img/icons/logo.svg" alt="logo" />
+					</a>
+					<div class="bottom-header__row">
+						<div class="bottom-header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="404.html" class="menu__link">Man</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Woman</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Kids</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Baby</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Sale</a>
+									</li>
+									<li class="menu__item">
+										<a href="soon.html" class="menu__link">Coming soon</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<form class="bottom-header__search search">
+							<button type="submit" class="search__icon">
+								<img src="img/icons/search.svg" alt="search" />
+							</button>
+							<input data-required="text" type="text" data-error="" placeholder="search..." class="search__input input" />
+						</form>
+						<div class="header__actions action-header" data-da=".menu__body,768,2">
+							<a href="#" class="action-header__favorite">
+								<img src="img/icons/favorite.svg" alt="favorite" />
+							</a>
+							<a href="#" class="action-header__card">
+								<img src="img/icons/card.svg" alt="card" />
+							</a>
+						</div>
+						<button type="button" class="menu__icon icon-menu">
+							<img src="img/icons/category.svg" alt="category" />
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="header__dropdown dropdown">
+				<div class="dropdown__container">
+					<ul class="dropdown__list">
+						<li class="dropdown__item"><a href="#">Shorts</a></li>
+						<li class="dropdown__item"><a href="#">Running Shorts</a></li>
+						<li class="dropdown__item"><a href="#">Women's Shorts</a></li>
+						<li class="dropdown__item"><a href="#">Men's Shorts</a></li>
+						<li class="dropdown__item"><a href="#">Children Shorts</a></li>
+					</ul>
+
+					<div class="dropdown__product product">
+						<div class="product__cards product__cards--search">
+							<article class="product__body">
+								<a class="product__image" href="#"><img src="img/best/best-1.webp" alt="product" /></a>
+								<div class="product__inf">
+									<a class="product__link" href="#">
+										<h3 class="product__title">Super ultra sneakers</h3>
+										<span class="product__price">10 000 UAH</span>
+									</a>
+									<a href="#" class="product__description">Women's Shoes</a>
+								</div>
+							</article>
+							<article class="product__body">
+								<a class="product__image" href="#"><img src="img/best/best-2.webp" alt="product" /></a>
+								<div class="product__inf">
+									<a class="product__link" href="#">
+										<h3 class="product__title">Super pants</h3>
+										<span class="product__price">3 000 UAH</span>
+									</a>
+									<a href="#" class="product__description">Women's pants</a>
+								</div>
+							</article>
+							<article class="product__body">
+								<a class="product__image" href="#"><img src="img/best/best-3.webp" alt="product" /></a>
+								<div class="product__inf">
+									<a class="product__link" href="#">
+										<h3 class="product__title">Super t-shirt</h3>
+										<span class="product__price">8 000 UAH</span>
+									</a>
+									<a href="#" class="product__description">Women's T-shirt</a>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__error-message error-message">
+				<div class="error-message__container">
+					<span>There is nothing like it.</span>
+					<span>You may have spelled the product name incorrectly, try again.</span>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="shop-item">
+				<div class="shop-item__container">
+					<div class="shop-item__head">
+						<div class="shop-item__breadcrumbs breadcrumbs">
+							<a href="home.heml">Home</a> / <span>running shoes</span>
+						</div>
+						<div class="shop-item__icon">
+							<img src="img/icons/filter.svg" alt="filter">
+						</div>
+					</div>
+					<h2 class="shop-item__title">Running Shoes(38)</h2>
+					<div class="shop-item__content">
+						<div class="shop-item__filter filter" data-da=".shop-item__head, 768,2">
+							<div class="filter__lable">Coming soon</div>
+							<div data-spollers data-one-spoller class="spollers">
+								<details class="spollers__item">
+									<summary class="spollers__title">Select Year</summary>
+									<div class="spollers__body">
+										<div class="checkbox">
+											<input id="c_1" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+											<label for="c_1" class="checkbox__label"><span class="checkbox__text">2022</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_2" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+											<label for="c_2" class="checkbox__label"><span class="checkbox__text">2023</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_3" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+											<label for="c_3" class="checkbox__label"><span class="checkbox__text">2024</span></label>
+										</div>
+									</div>
+								</details>
+								<details class="spollers__item">
+									<summary class="spollers__title">Choose Price</summary>
+									<div class="spollers__body">
+										<div class="range-filter" id="range"></div>
+										<div class="range__inputs">
+											<label class="range__label">
+												<div class="range__text">from</div>
+												<input type="number" min="300" max="50000" placeholder="300" id="price-start" class="range__input ">
+												<div class="range__text">UAH</div>
+
+											</label>
+											<label class="range__label">
+												<div class="range__text">to</div>
+												<input type="number" min="300" max="50000" placeholder="50000" id="price-end" class="range__input ">
+												<div class="range__text">UAH</div>
+
+											</label>
+										</div>
+									</div>
+								</details>
+								<details class="spollers__item">
+									<summary class="spollers__title">Gender</summary>
+									<div class="spollers__body">
+										<div class="checkbox">
+											<input id="c_4" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+											<label for="c_4" class="checkbox__label"><span class="checkbox__text">Men</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_5" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+											<label for="c_5" class="checkbox__label"><span class="checkbox__text">Women</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_6" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+											<label for="c_6" class="checkbox__label"><span class="checkbox__text">Unisex</span></label>
+										</div>
+									</div>
+								</details>
+								<details class="spollers__item">
+									<summary class="spollers__title">Choose Color</summary>
+									<div class="spollers__body">
+										<div class="checkbox">
+											<input id="c_7" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+											<label for="c_7" class="checkbox__label"><span class="checkbox__text">White</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_8" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+											<label for="c_8" class="checkbox__label"><span class="checkbox__text">Gray</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_9" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+											<label for="c_9" class="checkbox__label"><span class="checkbox__text">Black</span></label>
+										</div>
+									</div>
+								</details>
+								<details class="spollers__item">
+									<summary class="spollers__title">Collection</summary>
+									<div class="spollers__body">
+										<div class="checkbox">
+											<input id="c_10" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+											<label for="c_10" class="checkbox__label"><span class="checkbox__text">Collection 1</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_11" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+											<label for="c_11" class="checkbox__label"><span class="checkbox__text">Collection 2</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_12" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+											<label for="c_12" class="checkbox__label"><span class="checkbox__text">Collection 3</span></label>
+										</div>
+									</div>
+								</details>
+							</div>
+						</div>
+						<div class="shop-item__products product">
+							<div class="product__cards">
+								<article class="product__body">
+									<a class="product__image product__image--anim" href="#"><img src="img/best/best-1.webp" alt="product" /></a>
+									<div class="product__inf">
+										<a class="product__link product__link--anim" href="#">
+											<h3 class="product__title">Super ultra sneakers</h3>
+											<span class="product__price">10 000 UAH</span>
+										</a>
+										<a href="#" class="product__description product__description--anim">Women's Shoes</a>
+									</div>
+								</article>
+								<article class="product__body">
+									<a class="product__image product__image--anim" href="#"><img src="img/best/best-1.webp" alt="product" /></a>
+									<div class="product__inf">
+										<a class="product__link product__link--anim" href="#">
+											<h3 class="product__title">Super ultra sneakers</h3>
+											<span class="product__price">10 000 UAH</span>
+										</a>
+										<a href="#" class="product__description product__description--anim">Women's Shoes</a>
+									</div>
+								</article>
+								<article class="product__body">
+									<a class="product__image product__image--anim" href="#"><img src="img/best/best-1.webp" alt="product" /></a>
+									<div class="product__inf">
+										<a class="product__link product__link--anim" href="#">
+											<h3 class="product__title">Super ultra sneakers</h3>
+											<span class="product__price">10 000 UAH</span>
+										</a>
+										<a href="#" class="product__description product__description--anim">Women's Shoes</a>
+									</div>
+								</article>
+								<article class="product__body">
+									<a class="product__image product__image--anim" href="#"><img src="img/best/best-1.webp" alt="product" /></a>
+									<div class="product__inf">
+										<a class="product__link product__link--anim" href="#">
+											<h3 class="product__title">Super ultra sneakers</h3>
+											<span class="product__price">10 000 UAH</span>
+										</a>
+										<a href="#" class="product__description product__description--anim">Women's Shoes</a>
+									</div>
+								</article>
+								<article class="product__body">
+									<a class="product__image product__image--anim" href="#"><img src="img/best/best-1.webp" alt="product" /></a>
+									<div class="product__inf">
+										<a class="product__link product__link--anim" href="#">
+											<h3 class="product__title">Super ultra sneakers</h3>
+											<span class="product__price">10 000 UAH</span>
+										</a>
+										<a href="#" class="product__description product__description--anim">Women's Shoes</a>
+									</div>
+								</article>
+								<article class="product__body">
+									<a class="product__image product__image--anim" href="#"><img src="img/best/best-1.webp" alt="product" /></a>
+									<div class="product__inf">
+										<a class="product__link product__link--anim" href="#">
+											<h3 class="product__title">Super ultra sneakers</h3>
+											<span class="product__price">10 000 UAH</span>
+										</a>
+										<a href="#" class="product__description product__description--anim">Women's Shoes</a>
+									</div>
+								</article>
+								<article class="product__body">
+									<a class="product__image product__image--anim" href="#"><img src="img/best/best-1.webp" alt="product" /></a>
+									<div class="product__inf">
+										<a class="product__link product__link--anim" href="#">
+											<h3 class="product__title">Super ultra sneakers</h3>
+											<span class="product__price">10 000 UAH</span>
+										</a>
+										<a href="#" class="product__description product__description--anim">Women's Shoes</a>
+									</div>
+								</article>
+								<article class="product__body">
+									<a class="product__image product__image--anim" href="#"><img src="img/best/best-1.webp" alt="product" /></a>
+									<div class="product__inf">
+										<a class="product__link product__link--anim" href="#">
+											<h3 class="product__title">Super ultra sneakers</h3>
+											<span class="product__price">10 000 UAH</span>
+										</a>
+										<a href="#" class="product__description product__description--anim">Women's Shoes</a>
+									</div>
+								</article>
+								<article class="product__body">
+									<a class="product__image product__image--anim" href="#"><img src="img/best/best-1.webp" alt="product" /></a>
+									<div class="product__inf">
+										<a class="product__link product__link--anim" href="#">
+											<h3 class="product__title">Super ultra sneakers</h3>
+											<span class="product__price">10 000 UAH</span>
+										</a>
+										<a href="#" class="product__description product__description--anim">Women's Shoes</a>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top top-footer">
+					<div class="top-footer__col">
+						<div class="top-footer__lable">Help</div>
+						<ul class="top-footer__list">
+							<li class="top-footer__item"><a href="#">Get help</a></li>
+							<li class="top-footer__item"><a href="#">Contact us</a></li>
+							<li class="top-footer__item"><a href="#">Payment option</a></li>
+						</ul>
+					</div>
+					<div class="top-footer__col">
+						<div class="top-footer__lable">Company</div>
+						<ul class="top-footer__list">
+							<li class="top-footer__item"><a href="#">About "name"</a></li>
+							<li class="top-footer__item"><a href="#">News</a></li>
+							<li class="top-footer__item"><a href="#">Careers</a></li>
+							<li class="top-footer__item"><a href="#">Investors</a></li>
+						</ul>
+					</div>
+					<div class="top-footer__col">
+						<div class="top-footer__lable">Student Discount</div>
+						<ul class="top-footer__list">
+							<li class="top-footer__item top-footer__item--big"><a href="#">"name" App</a></li>
+							<li class="top-footer__item top-footer__item--big"><a href="#">FAQ</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<ul class="bottom-footer__list">
+						<li class="bottom-footer__item"><a href="#">Guides</a></li>
+						<li class="bottom-footer__item"><a href="#">Terms of Sale</a></li>
+						<li class="bottom-footer__item"><a href="#">Terms of Use</a></li>
+						<li class="bottom-footer__item"><a href="#">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20240510122238"></script>
+</body>
+
+</html>
